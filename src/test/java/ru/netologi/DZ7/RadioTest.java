@@ -93,6 +93,7 @@ public class RadioTest {
 
         Assertions.assertEquals(10, radio.getCurrentVolume());
     }
+
     @Test
 
     public void nextVolume1() {
@@ -125,6 +126,7 @@ public class RadioTest {
 
         Assertions.assertEquals(0, radio.getCurrentVolume());
     }
+
     @Test
 
     public void maxVolume() {
